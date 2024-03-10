@@ -28,7 +28,7 @@ export const Search: FC<Props> = (props) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const searchValue = e.currentTarget.search.value;
+    const searchValue: string = e.currentTarget.search.value;
     onSearch(searchValue);
   };
   return (

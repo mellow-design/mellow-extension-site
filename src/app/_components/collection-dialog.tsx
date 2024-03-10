@@ -1,17 +1,14 @@
-import { FC } from "react";
+import { type FC } from "react";
 import Image from "next/image";
 
 import {
   Dialog,
-  DialogClose,
   DialogContent,
-  DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { CollectionType } from "@/types/collection";
+import { type CollectionType } from "@/types/collection";
 
 type Props = {
   trigger: React.ReactNode;

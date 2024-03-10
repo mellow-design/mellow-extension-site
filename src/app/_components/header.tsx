@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { type FC } from "react";
 import Link from "next/link";
 
 import { DOC_URL, EXTENSION_URL } from "@/app/const/link";

@@ -1,12 +1,12 @@
 "use client";
 
-import { FC } from "react";
+import { type FC } from "react";
 import { IconArrowsDiagonal } from "@tabler/icons-react";
 
 import { CardContent, Card } from "@/components/ui/card";
 import { CollectionDialog } from "@/app/_components/collection-dialog";
 import { Search, useSearch } from "@/app/_components/search";
-import { CollectionType } from "@/types/collection";
+import { type CollectionType } from "@/types/collection";
 
 type Props = {
   collections: CollectionType[];
