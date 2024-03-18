@@ -8,7 +8,7 @@ export default async function Home() {
 
   return (
     <main className="flex-1 bg-gradient-to-b from-purple-50 to-cyan-500 py-4">
-      <div className="container absolute left-[50%] top-[40%] max-w-7xl -translate-x-[50%] -translate-y-[50%] space-y-4">
+      <div className="container absolute left-[50%] top-[45%] max-w-7xl -translate-x-[50%] -translate-y-[50%] space-y-4">
         <h1 className="mb-8 text-6xl font-extrabold leading-none tracking-tight">
           <div>
             DALL-E
