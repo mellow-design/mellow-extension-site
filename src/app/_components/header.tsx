@@ -6,7 +6,7 @@ import logo from "@/app/assets/logo.png";
 
 export const Header: FC = () => {
   return (
-    <header className="sticky top-0 bg-white shadow dark:bg-gray-950">
+    <header className="sticky top-0 bg-purple-50">
       <div className="mx-auto flex h-14 w-full max-w-7xl items-center justify-between px-8">
         <Link className="flex items-center gap-2 font-semibold" href="#">
           <div
